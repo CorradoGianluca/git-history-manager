@@ -25,6 +25,9 @@ npm-debug.log*
 .env
 .env.*
 
+# Personal Claude Code instructions
+CLAUDE.local.md
+
 # Editor: keep shared launch/task configs, ignore the rest
 .vscode/*
 !.vscode/launch.json
