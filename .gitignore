@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output (esbuild for the extension host, Vite for the webview)
+out/
+dist/
+*.tsbuildinfo
+
+# Packaged extension
+*.vsix
+
+# VS Code test instances (@vscode/test-electron / @vscode/test-cli)
+.vscode-test/
+.vscode-test-web/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+
+# Personal Claude Code instructions
+CLAUDE.local.md
+
+# Editor: keep shared launch/task configs, ignore the rest
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/settings.json
+.history/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
